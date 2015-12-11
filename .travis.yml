@@ -1,0 +1,12 @@
+language: android
+
+android:
+  components:
+    - build-tools-22.0.1
+    - android-22
+
+install:
+  - true
+
+script:
+  - ./gradlew clean build check
